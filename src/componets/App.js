@@ -21,7 +21,7 @@ export default function App(){
                     <Route path="/" element={<Login/>} />
                     <Route path="/sign-up" element={<Cadastro />} />
                     <Route path="subscriptions/" element={<Subscriptions />} />
-                    <Route path="subscriptions/:ID_DO_PLANO" element={<Id />} />
+                    <Route path=":ID_DO_PLANO" element={<Id />} />
                     <Route path="home" element={<Home />} />
 
                 </Routes>
