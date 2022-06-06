@@ -39,7 +39,7 @@ const Inicio = styled.div `
     flex-direction: column;
     align-items: center;
     background: #0e0e13;
-    padding-top: 100px;
+    padding-top: 147px;
 
     h3{
        
@@ -94,6 +94,8 @@ const Entrada = styled.div `
         padding: 18px, 122px, 18px, 122px;
         line-height: 26px;
         text-align: center;
+        margin-top: 16px;
+
         
 
     }
