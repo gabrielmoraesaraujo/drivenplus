@@ -1,4 +1,4 @@
-import react from "react";
-import App from "../../projeto10-trackit/src/components/App";
+import ReactDOM from "react-dom";
+import App from "../src/componets/App";
 
 ReactDOM.render(<App />, document.querySelector(".root"));
